@@ -4,8 +4,8 @@ var haslo1 =""
 var dlugosc= haslo.length;
 var litery = new Array(35);
 var miss=0;
-var no = new Audio("img/no.wav");
-var yes = new Audio("img/yes.wav");
+var no = new Audio("no.wav");
+var yes = new Audio("yes.wav");
 litery[0] = "A";
 litery[1] = "Ą";
 litery[2] = "B";
@@ -41,6 +41,7 @@ litery[31] = "Y";
 litery[32] = "Z";
 litery[33] = "Ż";
 litery[34] = "Ź";
+
 
 for(i=0;i<dlugosc;i++)
 {
@@ -88,7 +89,7 @@ function restart() {
             haslo1 = haslo1 + "-";
     }
 
-    document.getElementById("szubienica").innerHTML = '<img src="img/s0.jpg" alt="szubienica"/>';
+    document.getElementById("szubienica").innerHTML = '<img src="s0.jpg" alt="szubienica"/>';
     wyp_haslo();
     start();
 }
