@@ -124,7 +124,7 @@ function sprawdz(nr){
         document.getElementById(emelent).style.cursor="default";
         document.getElementById(emelent).setAttribute("onclick",";");
         miss++
-        var obraz ="img/s"+miss+".jpg"
+        var obraz ="s"+miss+".jpg"
         document.getElementById("szubienica").innerHTML='<img src="'+obraz+'"alt ="szubienica"/>'
         
     }
@@ -142,3 +142,4 @@ function sprawdz(nr){
     }
     
 }
+
